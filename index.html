@@ -1,260 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="AVON FAST MACHINES - Footwear manufacturing machinery including Travel Head Clicker Machine, Steamer for Upper Softening, Lasting Conveyor, Pasting Conveyor and Conveyor Chiller.">
-  <title>AVON FAST MACHINES | Footwear Manufacturing Machinery</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AVON FAST MACHINES supplies footwear machinery for cutting, upper softening, lasting, pasting and cooling. View machine specifications and request a quotation.">
+<meta name="robots" content="index,follow">
+<title>AVON FAST MACHINES | Footwear Machinery</title>
+<style>
+:root{--red:#e9232e;--red2:#c91822;--ink:#10131d;--muted:#5e6878;--line:#e7e9ee;--soft:#f6f7f9;--white:#fff;--green:#1b9b59;--shadow:0 18px 50px rgba(16,19,29,.10);--radius:20px;--max:1180px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.6}a{text-decoration:none;color:inherit}.container{width:min(var(--max),calc(100% - 36px));margin:auto}
+.topbar{background:#0d1017;color:#fff;font-size:13px}.topbar-inner{min-height:40px;display:flex;align-items:center;justify-content:space-between;gap:18px}.top-contact{display:flex;gap:22px;flex-wrap:wrap}.top-contact a:hover{color:#ffb1b5}
+.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}.nav-inner{height:82px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:12px}.brand-mark{font-weight:900;font-size:28px;letter-spacing:-1.5px;color:var(--red);padding-right:12px;border-right:2px solid #cbd0d8}.brand-copy strong{display:block;font-size:18px;letter-spacing:.2px}.brand-copy small{display:block;color:#758093;margin-top:1px}.nav-links{display:flex;align-items:center;gap:28px;font-weight:700;font-size:15px}.nav-links a:hover{color:var(--red)}.nav-cta{background:var(--red);color:#fff!important;padding:13px 21px;border-radius:10px}.nav-cta:hover{background:var(--red2)}.menu-toggle{display:none;border:0;background:transparent;font-size:27px}
+.hero{position:relative;overflow:hidden;background:linear-gradient(180deg,#fbfbfc 0%,#fff 100%);padding:78px 0 66px}.hero:before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;right:-180px;top:-220px;background:rgba(233,35,46,.055)}.hero-grid{position:relative;display:grid;grid-template-columns:1.03fr .97fr;gap:58px;align-items:center}.eyebrow{margin:0 0 13px;color:var(--red);font-size:13px;font-weight:900;letter-spacing:2px;text-transform:uppercase}.hero h1{font-size:clamp(42px,5.4vw,72px);line-height:1.03;letter-spacing:-2.8px;margin:0 0 22px;max-width:720px}.hero-text{font-size:18px;color:var(--muted);max-width:650px;margin:0 0 30px}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:11px;padding:14px 22px;font-weight:800;border:1px solid transparent;cursor:pointer;transition:.2s}.btn-primary{background:var(--red);color:#fff}.btn-primary:hover{background:var(--red2);transform:translateY(-1px)}.btn-light{border-color:#d5d9e0;background:#fff}.btn-light:hover{border-color:#9da5b2}.hero-points{display:flex;gap:18px;flex-wrap:wrap;margin-top:28px;color:#404959;font-size:14px;font-weight:700}.hero-points span:before{content:"✓";color:var(--red);margin-right:7px;font-weight:900}
+.hero-visual{position:relative}.hero-visual-frame{background:#fff;border:1px solid #eceef2;border-radius:28px;padding:24px;box-shadow:var(--shadow)}.hero-visual img{display:block;width:100%;height:390px;object-fit:contain;background:#f7f8fa;border-radius:17px}.hero-badge{position:absolute;left:5px;bottom:5px;background:#fff;border:1px solid #e4e7eb;border-radius:16px;padding:15px 18px;box-shadow:0 12px 30px rgba(16,19,29,.12);max-width:90%}.hero-badge strong{display:block;font-size:16px}.hero-badge span{display:block;color:var(--muted);font-size:13px}
+.quick{background:#0d1017;color:#fff}.quick-grid{display:grid;grid-template-columns:repeat(4,1fr)}.quick-item{padding:23px 18px;border-right:1px solid rgba(255,255,255,.11)}.quick-item:last-child{border-right:0}.quick-item strong{display:block;font-size:21px}.quick-item span{color:#b9c0cc;font-size:13px}
+.section{padding:88px 0}.section-heading{max-width:720px;margin-bottom:38px}.section-heading h2{font-size:42px;line-height:1.1;letter-spacing:-1.5px;margin:0 0 12px}.section-heading p:not(.eyebrow){color:var(--muted);margin:0;font-size:16px}
+.product-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}.product-card{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:#fff;transition:.2s;box-shadow:0 8px 24px rgba(16,19,29,.04)}.product-card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}.product-img{width:100%;height:280px;object-fit:contain;background:#f6f7f9;display:block}.product-body{padding:24px}.tag{display:inline-block;background:#fff0f1;color:var(--red2);font-weight:900;font-size:12px;padding:5px 9px;border-radius:999px;margin-bottom:10px}.product-body h3{font-size:24px;line-height:1.2;margin:0 0 8px}.product-body>p{color:var(--muted);margin:0 0 15px}.specs{list-style:none;padding:0;margin:0 0 18px;display:grid;gap:8px}.specs li{font-size:14px;color:#303744;padding-left:20px;position:relative}.specs li:before{content:"";position:absolute;width:6px;height:6px;border-radius:50%;background:var(--red);left:3px;top:9px}.card-actions{display:flex;align-items:center;justify-content:space-between;gap:12px}.text-link{color:var(--red2);font-weight:900;font-size:14px}.text-link:hover{text-decoration:underline}.details{display:none;margin:16px 0 0;padding-top:15px;border-top:1px dashed #dfe2e7}.details.open{display:grid;grid-template-columns:1fr 1fr;gap:8px 18px}.detail{font-size:13px;color:#4d5665}.detail b{color:#151923}
+.dark-section{background:#0d1017;color:#fff}.dark-section .section-heading p:not(.eyebrow){color:#aeb7c5}.process-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.process-card{border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:26px;background:rgba(255,255,255,.03)}.step{display:inline-flex;width:42px;height:42px;border-radius:50%;align-items:center;justify-content:center;background:var(--red);font-weight:900;margin-bottom:18px}.process-card h3{margin:0 0 7px;font-size:19px}.process-card p{margin:0;color:#b9c0cc;font-size:14px}
+.about-grid{display:grid;grid-template-columns:1fr .8fr;gap:60px;align-items:start}.about-copy p{color:var(--muted);font-size:17px}.contact-box{background:var(--soft);border:1px solid var(--line);border-radius:22px;padding:28px}.contact-box h3{margin:0 0 18px;font-size:23px}.contact-row{padding:13px 0;border-top:1px solid #e1e4e9}.contact-row:first-of-type{border-top:0}.contact-row b{display:block;font-size:13px;text-transform:uppercase;letter-spacing:.7px;color:#707989;margin-bottom:3px}.contact-row a:hover{color:var(--red)}
+.catalog{background:#f7f8fa}.catalog-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.catalog-card{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden}.catalog-card img{display:block;width:100%;height:330px;object-fit:cover;object-position:top}.catalog-card span{display:block;padding:11px 13px;font-weight:800;font-size:13px}
+.quote{background:linear-gradient(135deg,#fff 0%,#fff7f7 100%)}.quote-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:50px;align-items:start}.quote-copy h2{font-size:46px;line-height:1.08;letter-spacing:-1.7px;margin:0 0 14px}.quote-copy>p{color:var(--muted);font-size:17px}.direct{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}.form{background:#fff;border:1px solid var(--line);border-radius:22px;padding:28px;box-shadow:var(--shadow)}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font-size:13px;font-weight:800}.field input,.field select,.field textarea{font:inherit;border:1px solid #d8dce3;border-radius:10px;padding:12px 13px;outline:none;background:#fff}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--red);box-shadow:0 0 0 3px rgba(233,35,46,.09)}.form button{width:100%;margin-top:17px}.form-note{font-size:12px;color:#7a8391;margin:10px 0 0;text-align:center}
+.footer{background:#0d1017;color:#fff;padding:30px 0}.footer-inner{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer small{color:#aeb7c5}.footer-links{display:flex;gap:18px;flex-wrap:wrap;font-size:14px}.footer-links a:hover{color:#ffb1b5}.whatsapp{position:fixed;right:20px;bottom:20px;z-index:60;background:var(--green);color:#fff;border-radius:999px;padding:13px 18px;font-weight:900;box-shadow:0 12px 30px rgba(27,155,89,.3);display:flex;align-items:center;gap:8px}.whatsapp:hover{filter:brightness(.95)}
+@media(max-width:900px){.nav-links{display:none;position:absolute;top:82px;left:0;right:0;background:#fff;border-bottom:1px solid var(--line);padding:18px;flex-direction:column;align-items:stretch;gap:6px}.nav-links.show{display:flex}.nav-links a{padding:11px 10px}.menu-toggle{display:block}.hero-grid,.about-grid,.quote-grid{grid-template-columns:1fr}.hero{padding-top:55px}.hero-visual{max-width:680px}.quick-grid{grid-template-columns:1fr 1fr}.quick-item:nth-child(2){border-right:0}.product-grid{grid-template-columns:1fr}.catalog-grid{grid-template-columns:1fr 1fr}.process-grid{grid-template-columns:1fr}.section{padding:70px 0}.topbar-inner{padding:8px 0;align-items:flex-start;flex-direction:column}.top-contact{gap:10px 16px}.quote-copy h2{font-size:40px}}
+@media(max-width:560px){.container{width:min(var(--max),calc(100% - 24px))}.brand-copy{display:none}.brand-mark{font-size:26px}.hero h1{font-size:43px;letter-spacing:-1.8px}.hero-text{font-size:16px}.hero-visual img{height:270px}.quick-grid{grid-template-columns:1fr}.quick-item{border-right:0;border-bottom:1px solid rgba(255,255,255,.11)}.quick-item:last-child{border-bottom:0}.section-heading h2{font-size:34px}.product-img{height:235px}.details.open{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.catalog-grid{grid-template-columns:1fr 1fr}.catalog-card img{height:250px}.footer-inner{align-items:flex-start;flex-direction:column}.whatsapp{right:12px;bottom:12px;padding:12px 15px}.hero-points{gap:9px;flex-direction:column}}
+</style>
 </head>
 <body>
-  <header class="topbar">
-    <div class="container topbar-inner">
-      <div>Plot No. 647, Mundka, Delhi-110041</div>
-      <div class="top-contact">
-        <a href="tel:+919953255750">+91 9953255750</a>
-        <a href="tel:+919953255740">+91 9953255740</a>
-        <a href="mailto:afmindia98@gmail.com">afmindia98@gmail.com</a>
-      </div>
-    </div>
-  </header>
-
-  <nav class="nav">
-    <div class="container nav-inner">
-      <a class="brand" href="#home">
-        <span class="brand-mark">AFM</span>
-        <span>
-          <strong>AVON FAST MACHINES</strong>
-          <small>Footwear Machinery</small>
-        </span>
-      </a>
-      <button class="menu-toggle" aria-label="Open menu">☰</button>
-      <div class="nav-links">
-        <a href="#home">Home</a>
-        <a href="#products">Machines</a>
-        <a href="#about">About</a>
-        <a href="#catalog">Catalog</a>
-        <a class="nav-cta" href="#enquiry">Get a Quote</a>
-      </div>
-    </div>
-  </nav>
-
-  <main id="home">
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">AVON FAST MACHINES</p>
-          <h1>Footwear manufacturing machinery for productive operations.</h1>
-          <p class="hero-text">
-            Explore machinery featured in our catalog, including cutting, softening,
-            lasting, pasting and cooling equipment.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#enquiry">Request a Quote</a>
-            <a class="btn btn-outline" href="#products">View Machines</a>
-          </div>
-          <div class="trust-row">
-            <span>✓ B2B machinery enquiries</span>
-            <span>✓ Delhi-based</span>
-            <span>✓ Direct contact</span>
-          </div>
-        </div>
-        <div class="hero-visual">
-          <img src="conveyor-chiller.png" alt="Conveyor Chiller from AVON FAST MACHINES catalog">
-          <div class="floating-card">
-            <b>Conveyor Chiller</b>
-            <span>5 TR chiller capacity • 1000 Pair / 8Hr</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="stats">
-      <div class="container stats-grid">
-        <div><b>5</b><span>Featured machines</span></div>
-        <div><b>25 Ton</b><span>Max. cutting force on AF-250</span></div>
-        <div><b>2,500</b><span>Pairs / 8Hr (catalog figure)</span></div>
-        <div><b>Delhi</b><span>Mundka location</span></div>
-      </div>
-    </section>
-
-    <section class="section" id="products">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">MACHINES</p>
-          <h2>Featured machinery</h2>
-          <p>Technical information below is taken directly from the supplied AFM catalog.</p>
-        </div>
-
-        <div class="product-grid">
-          <article class="product-card">
-            <img src="travel-head-clicker.png" alt="Travel Head Clicker Machine">
-            <div class="product-body">
-              <span class="tag">AF-250</span>
-              <h3>Travel Head Clicker Machine</h3>
-              <p>Cutting machine with a maximum cutting force of 25 Ton.</p>
-              <ul>
-                <li>Working table: 1600 × 500 mm</li>
-                <li>Cutting head: 475 × 475 mm</li>
-                <li>Motor: 2.2 kW (3 HP)</li>
-              </ul>
-              <a href="#enquiry" class="text-link" data-product="Travel Head Clicker Machine">Enquire about this machine →</a>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="steamer-upper-softening.png" alt="Steamer for Upper Softening">
-            <div class="product-body">
-              <h3>Steamer for Upper Softening</h3>
-              <p>Catalog specification for upper softening with a 6-station working platform.</p>
-              <ul>
-                <li>Material: MS / SS</li>
-                <li>Tank: 30–40 Ltr.</li>
-                <li>Production: 2000–2500 Pairs / 8Hr</li>
-              </ul>
-              <a href="#enquiry" class="text-link" data-product="Steamer for Upper Softening">Enquire about this machine →</a>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="lasting-conveyor.png" alt="Lasting Conveyor">
-            <div class="product-body">
-              <h3>Lasting Conveyor</h3>
-              <p>Conveyor system with one heating chamber and Air Heater / NIR.</p>
-              <ul>
-                <li>Length: 32 Feet</li>
-                <li>Heating power: 12 kW</li>
-                <li>Production: 1000 Pair / 8Hr</li>
-              </ul>
-              <a href="#enquiry" class="text-link" data-product="Lasting Conveyor">Enquire about this machine →</a>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="pasting-conveyor.png" alt="Pasting Conveyor">
-            <div class="product-body">
-              <h3>Pasting Conveyor</h3>
-              <p>Conveyor system with three heating chambers and Air Heater / NIR.</p>
-              <ul>
-                <li>Length: 52 Feet</li>
-                <li>Heating power: 48 kW</li>
-                <li>Production: 2000 Pair / 8Hr</li>
-              </ul>
-              <a href="#enquiry" class="text-link" data-product="Pasting Conveyor">Enquire about this machine →</a>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="conveyor-chiller.png" alt="Conveyor Chiller">
-            <div class="product-body">
-              <h3>Conveyor Chiller</h3>
-              <p>Conveyor-type cooling equipment listed in the supplied catalog.</p>
-              <ul>
-                <li>Chiller capacity: 5 Tr.</li>
-                <li>Temperature: 0 to -15°C</li>
-                <li>Production: 1000 Pair / 8Hr</li>
-              </ul>
-              <a href="#enquiry" class="text-link" data-product="Conveyor Chiller">Enquire about this machine →</a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="process">
-      <div class="container">
-        <div class="section-heading light">
-          <p class="eyebrow">HOW TO ENQUIRE</p>
-          <h2>Turn a website visitor into a sales enquiry.</h2>
-        </div>
-        <div class="process-grid">
-          <div><span>01</span><h3>Choose a machine</h3><p>Review the featured machinery and specifications.</p></div>
-          <div><span>02</span><h3>Send your requirement</h3><p>Tell us the machine, quantity and your requirement.</p></div>
-          <div><span>03</span><h3>Talk to our team</h3><p>Use the phone, email or WhatsApp contact option.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section about" id="about">
-      <div class="container about-grid">
-        <div>
-          <p class="eyebrow">ABOUT AVON FAST MACHINES</p>
-          <h2>Machinery solutions from Mundka, Delhi.</h2>
-          <p>
-            AVON FAST MACHINES is presented in the supplied catalog with a range of
-            footwear-manufacturing machinery. The catalog features cutting, upper
-            softening, lasting, pasting and cooling equipment.
-          </p>
-          <p class="note">
-            Website copy intentionally avoids adding claims such as years of experience,
-            certifications, warranty, installation support or customer count because
-            those details are not stated in the supplied catalog.
-          </p>
-        </div>
-        <div class="contact-box">
-          <h3>Contact AVON FAST MACHINES</h3>
-          <p><b>Address</b><br>Plot No. 647, Mundka, Metro Pillar No. 507, Delhi-110041</p>
-          <p><b>Phone</b><br><a href="tel:+919953255750">+91 9953255750</a><br><a href="tel:+919953255740">+91 9953255740</a></p>
-          <p><b>Email</b><br><a href="mailto:afmindia98@gmail.com">afmindia98@gmail.com</a></p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section catalog" id="catalog">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">CATALOG</p>
-          <h2>See the supplied product catalog</h2>
-          <p>Use the catalog pages as a visual reference while we build dedicated product pages.</p>
-        </div>
-        <div class="catalog-grid">
-          <img src="catalog-page-1.png" alt="AVON FAST MACHINES catalog cover">
-          <img src="catalog-page-2.png" alt="AVON FAST MACHINES catalog page 2">
-          <img src="catalog-page-3.png" alt="AVON FAST MACHINES catalog page 3">
-          <img src="catalog-page-4.png" alt="AVON FAST MACHINES catalog page 4">
-        </div>
-      </div>
-    </section>
-
-    <section class="section enquiry" id="enquiry">
-      <div class="container enquiry-grid">
-        <div>
-          <p class="eyebrow">GET A QUOTE</p>
-          <h2>Tell us what machine you need.</h2>
-          <p>Submit the form and use the direct contact options to start a conversation with AVON FAST MACHINES.</p>
-          <div class="direct-actions">
-            <a class="btn btn-primary" href="https://wa.me/919953255750?text=Hello%20AVON%20FAST%20MACHINES%2C%20I%20want%20a%20quotation." target="_blank" rel="noopener">WhatsApp Us</a>
-            <a class="btn btn-outline" href="tel:+919953255750">Call Now</a>
-          </div>
-        </div>
-        <form id="leadForm" class="lead-form">
-          <label>Full Name<input name="name" required placeholder="Your name"></label>
-          <label>Phone Number<input name="phone" required type="tel" placeholder="Your phone number"></label>
-          <label>Machine Required
-            <select name="machine" id="machine">
-              <option value="">Select a machine</option>
-              <option>Travel Head Clicker Machine</option>
-              <option>Steamer for Upper Softening</option>
-              <option>Lasting Conveyor</option>
-              <option>Pasting Conveyor</option>
-              <option>Conveyor Chiller</option>
-            </select>
-          </label>
-          <label>Requirement / Quantity<textarea name="message" rows="4" placeholder="Tell us your requirement"></textarea></label>
-          <button class="btn btn-primary" type="submit">Send Enquiry on WhatsApp</button>
-          <p class="form-note">This first version sends the enquiry to WhatsApp. A server-backed form and CRM can be added next.</p>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container footer-inner">
-      <div><strong>AVON FAST MACHINES</strong><br><span>Plot No. 647, Mundka, Metro Pillar No. 507, Delhi-110041</span></div>
-      <div><a href="tel:+919953255750">+91 9953255750</a> · <a href="mailto:afmindia98@gmail.com">afmindia98@gmail.com</a></div>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+<header class="topbar"><div class="container topbar-inner"><div>Plot No. 647, Mundka, Delhi-110041</div><div class="top-contact"><a href="tel:+919953255750">+91 9953255750</a><a href="tel:+919953255740">+91 9953255740</a><a href="mailto:afmindia98@gmail.com">afmindia98@gmail.com</a></div></div></header>
+<nav class="nav"><div class="container nav-inner"><a class="brand" href="#home"><span class="brand-mark">AFM</span><span class="brand-copy"><strong>AVON FAST MACHINES</strong><small>Footwear Machinery</small></span></a><button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button><div class="nav-links" id="navLinks"><a href="#home">Home</a><a href="#machines">Machines</a><a href="#about">About</a><a href="#catalog">Catalog</a><a class="nav-cta" href="#quote">Get a Quote</a></div></div></nav>
+<main id="home">
+<section class="hero"><div class="container hero-grid"><div><p class="eyebrow">AVON FAST MACHINES</p><h1>Footwear machinery for cutting, softening, lasting, pasting &amp; cooling.</h1><p class="hero-text">Explore the machinery featured in our catalog, check key specifications, and send your requirement directly to AVON FAST MACHINES.</p><div class="actions"><a class="btn btn-primary" href="#quote">Request a Quote</a><a class="btn btn-light" href="#machines">View Machines</a></div><div class="hero-points"><span>Catalog-listed machines</span><span>Direct phone &amp; WhatsApp enquiry</span><span>Mundka, Delhi</span></div></div><div class="hero-visual"><div class="hero-visual-frame"><img src="conveyor-chiller.png" alt="Conveyor Chiller - AVON FAST MACHINES"></div><div class="hero-badge"><strong>Conveyor Chiller</strong><span>5 TR capacity • 0 to -15°C • 1000 Pair / 8Hr</span></div></div></div></section>
+<section class="quick"><div class="container quick-grid"><div class="quick-item"><strong>5</strong><span>Featured machines</span></div><div class="quick-item"><strong>25 Ton</strong><span>Max. cutting force on AF-250</span></div><div class="quick-item"><strong>2,500</strong><span>Pairs / 8Hr catalog figure</span></div><div class="quick-item"><strong>Delhi</strong><span>Mundka location</span></div></div></section>
+<section class="section" id="machines"><div class="container"><div class="section-heading"><p class="eyebrow">MACHINES</p><h2>Featured footwear machinery</h2><p>Specifications shown here follow the supplied AVON FAST MACHINES catalog.</p></div><div class="product-grid">
+<article class="product-card"><img class="product-img" src="travel-head-clicker.png" alt="Travel Head Clicker Machine AF-250"><div class="product-body"><span class="tag">AF-250</span><h3>Travel Head Clicker Machine</h3><p>Cutting equipment with a maximum cutting force of 25 Ton.</p><ul class="specs"><li>Working table: 1600 × 500 mm</li><li>Cutting head: 475 × 475 mm</li><li>Motor: 2.2 kW (3 HP)</li></ul><div class="card-actions"><a class="text-link" href="#quote" data-product="Travel Head Clicker Machine">Ask for a quote →</a><button class="text-link details-btn" type="button">View specs</button></div><div class="details"><div class="detail"><b>Stroke adjustment:</b> 5–150 mm</div><div class="detail"><b>Oil tank:</b> 75 L</div><div class="detail"><b>Nett weight:</b> 1350 kg approx.</div><div class="detail"><b>Gross weight:</b> 1420 kg approx.</div></div></div></article>
+<article class="product-card"><img class="product-img" src="steamer-upper-softening.png" alt="Steamer for Upper Softening"><div class="product-body"><h3>Steamer for Upper Softening</h3><p>Upper-softening equipment with a 6-station working platform.</p><ul class="specs"><li>Material: MS / SS</li><li>Tank: 30–40 Ltr.</li><li>Production: 2000–2500 Pairs / 8Hr</li></ul><div class="card-actions"><a class="text-link" href="#quote" data-product="Steamer for Upper Softening">Ask for a quote →</a><button class="text-link details-btn" type="button">View specs</button></div><div class="details"><div class="detail"><b>Voltage:</b> 380 V / 50 Hz</div><div class="detail"><b>Working platform:</b> 6 station</div><div class="detail"><b>Power:</b> 7.5 kW</div><div class="detail"><b>Nett weight:</b> 70–80 kg approx.</div></div></div></article>
+<article class="product-card"><img class="product-img" src="lasting-conveyor.png" alt="Lasting Conveyor"><div class="product-body"><h3>Lasting Conveyor</h3><p>Conveyor system with one heating chamber and Air Heater / NIR.</p><ul class="specs"><li>Length: 32 Feet</li><li>Heating power: 12 kW</li><li>Production: 1000 Pair / 8Hr</li></ul><div class="card-actions"><a class="text-link" href="#quote" data-product="Lasting Conveyor">Ask for a quote →</a><button class="text-link details-btn" type="button">View specs</button></div><div class="details"><div class="detail"><b>Material:</b> MS / SS</div><div class="detail"><b>Heating chamber:</b> 1</div><div class="detail"><b>Motor power:</b> 1 kW</div><div class="detail"><b>Heater type:</b> Air Heater / NIR</div></div></div></article>
+<article class="product-card"><img class="product-img" src="pasting-conveyor.png" alt="Pasting Conveyor"><div class="product-body"><h3>Pasting Conveyor</h3><p>Conveyor system with three heating chambers and Air Heater / NIR.</p><ul class="specs"><li>Length: 52 Feet</li><li>Heating power: 48 kW</li><li>Production: 2000 Pair / 8Hr</li></ul><div class="card-actions"><a class="text-link" href="#quote" data-product="Pasting Conveyor">Ask for a quote →</a><button class="text-link details-btn" type="button">View specs</button></div><div class="details"><div class="detail"><b>Material:</b> MS / SS</div><div class="detail"><b>Heating chamber:</b> 3</div><div class="detail"><b>Motor power:</b> 2 kW</div><div class="detail"><b>Heater type:</b> Air Heater / NIR</div></div></div></article>
+<article class="product-card"><img class="product-img" src="conveyor-chiller.png" alt="Conveyor Chiller"><div class="product-body"><h3>Conveyor Chiller</h3><p>Conveyor-type cooling equipment listed in the supplied catalog.</p><ul class="specs"><li>Chiller capacity: 5 TR</li><li>Temperature: 0 to -15°C</li><li>Production: 1000 Pair / 8Hr</li></ul><div class="card-actions"><a class="text-link" href="#quote" data-product="Conveyor Chiller">Ask for a quote →</a><button class="text-link details-btn" type="button">View specs</button></div><div class="details"><div class="detail"><b>Material:</b> MS / SS / Copper</div><div class="detail"><b>Length:</b> 10 Feet</div><div class="detail"><b>Cooling chamber:</b> 7 Feet</div><div class="detail"><b>Input power:</b> 7 kW</div></div></div></article>
+</div></div></section>
+<section class="section dark-section"><div class="container"><div class="section-heading"><p class="eyebrow">HOW IT WORKS</p><h2>Make it easy for a buyer to contact you.</h2><p>A simple enquiry path keeps the website focused on B2B leads.</p></div><div class="process-grid"><div class="process-card"><span class="step">01</span><h3>Choose a machine</h3><p>Review the machine images and key catalog specifications.</p></div><div class="process-card"><span class="step">02</span><h3>Share your requirement</h3><p>Tell us the machine you need, quantity and your requirement.</p></div><div class="process-card"><span class="step">03</span><h3>Talk directly</h3><p>Submit the enquiry or contact AVON FAST MACHINES by phone or WhatsApp.</p></div></div></div></section>
+<section class="section" id="about"><div class="container about-grid"><div class="about-copy"><p class="eyebrow">ABOUT AVON FAST MACHINES</p><h2>Footwear machinery from Mundka, Delhi.</h2><p>AVON FAST MACHINES presents footwear-manufacturing machinery covering cutting, upper softening, lasting, pasting and cooling equipment.</p><p>The website is designed around clear machine information and direct quotation enquiries so a potential buyer can quickly find the relevant equipment and contact the business.</p></div><div class="contact-box"><h3>Contact details</h3><div class="contact-row"><b>Address</b>Plot No. 647, Mundka, Metro Pillar No. 507, Delhi-110041</div><div class="contact-row"><b>Phone</b><a href="tel:+919953255750">+91 9953255750</a><br><a href="tel:+919953255740">+91 9953255740</a></div><div class="contact-row"><b>Email</b><a href="mailto:afmindia98@gmail.com">afmindia98@gmail.com</a></div></div></div></section>
+<section class="section catalog" id="catalog"><div class="container"><div class="section-heading"><p class="eyebrow">CATALOG</p><h2>Browse the catalog pages</h2><p>Use these pages as a quick visual reference for the supplied catalog.</p></div><div class="catalog-grid"><div class="catalog-card"><img src="catalog-page-1.png" alt="AVON FAST MACHINES catalog page 1"><span>Catalog — Page 1</span></div><div class="catalog-card"><img src="catalog-page-2.png" alt="AVON FAST MACHINES catalog page 2"><span>Catalog — Page 2</span></div><div class="catalog-card"><img src="catalog-page-3.png" alt="AVON FAST MACHINES catalog page 3"><span>Catalog — Page 3</span></div><div class="catalog-card"><img src="catalog-page-4.png" alt="AVON FAST MACHINES catalog page 4"><span>Catalog — Page 4</span></div></div></div></section>
+<section class="section quote" id="quote"><div class="container quote-grid"><div class="quote-copy"><p class="eyebrow">GET A QUOTE</p><h2>Tell us which machine you need.</h2><p>Fill in your details. When you submit, WhatsApp will open with your enquiry ready to send to AVON FAST MACHINES.</p><div class="direct"><a class="btn btn-primary" href="https://wa.me/919953255750?text=Hello%20AVON%20FAST%20MACHINES%2C%20I%20want%20a%20quotation." target="_blank" rel="noopener">WhatsApp Us</a><a class="btn btn-light" href="tel:+919953255750">Call Now</a></div></div><form class="form" id="leadForm"><div class="form-grid"><div class="field"><label for="name">Full Name *</label><input id="name" name="name" required placeholder="Your name"></div><div class="field"><label for="phone">Phone Number *</label><input id="phone" name="phone" required type="tel" placeholder="Your phone number"></div><div class="field full"><label for="machine">Machine Required</label><select id="machine" name="machine"><option value="">Select a machine</option><option>Travel Head Clicker Machine</option><option>Steamer for Upper Softening</option><option>Lasting Conveyor</option><option>Pasting Conveyor</option><option>Conveyor Chiller</option></select></div><div class="field full"><label for="message">Requirement / Quantity</label><textarea id="message" name="message" rows="5" placeholder="Tell us your requirement or quantity"></textarea></div></div><button class="btn btn-primary" type="submit">Send Enquiry on WhatsApp</button><p class="form-note">Your enquiry is prepared in WhatsApp; nothing is stored on this website.</p></form></div></section>
+</main>
+<footer class="footer"><div class="container footer-inner"><div><strong>AVON FAST MACHINES</strong><br><small>Plot No. 647, Mundka, Metro Pillar No. 507, Delhi-110041</small></div><div class="footer-links"><a href="tel:+919953255750">+91 9953255750</a><a href="tel:+919953255740">+91 9953255740</a><a href="mailto:afmindia98@gmail.com">Email</a></div></div></footer>
+<a class="whatsapp" href="https://wa.me/919953255750?text=Hello%20AVON%20FAST%20MACHINES%2C%20I%20want%20information%20about%20your%20footwear%20machinery." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp</a>
+<script>
+const menuToggle=document.getElementById('menuToggle');const navLinks=document.getElementById('navLinks');menuToggle.addEventListener('click',()=>navLinks.classList.toggle('show'));navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>navLinks.classList.remove('show')));
+document.querySelectorAll('.details-btn').forEach(btn=>btn.addEventListener('click',()=>{const d=btn.closest('.product-body').querySelector('.details');d.classList.toggle('open');btn.textContent=d.classList.contains('open')?'Hide specs':'View specs';}));
+document.querySelectorAll('[data-product]').forEach(link=>link.addEventListener('click',()=>{const p=link.getAttribute('data-product');setTimeout(()=>{const select=document.getElementById('machine');select.value=p;},50);}));
+document.getElementById('leadForm').addEventListener('submit',e=>{e.preventDefault();const f=new FormData(e.currentTarget);const name=(f.get('name')||'').trim();const phone=(f.get('phone')||'').trim();const machine=(f.get('machine')||'Not specified').trim();const message=(f.get('message')||'Not specified').trim();const text=`Hello AVON FAST MACHINES, I want a quotation.%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0AMachine: ${encodeURIComponent(machine)}%0ARequirement: ${encodeURIComponent(message)}`;window.open(`https://wa.me/919953255750?text=${text}`,'_blank');});
+</script>
 </body>
 </html>
