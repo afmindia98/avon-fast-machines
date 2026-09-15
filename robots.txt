@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://afmindia98.github.io/avon-footwear-machines/sitemap.xml
